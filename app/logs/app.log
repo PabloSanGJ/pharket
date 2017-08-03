@@ -1,0 +1,27 @@
+[Thu, 27 Jul 17 10:01:30 +0200][INFO] Login: Mr. Red
+[Thu, 27 Jul 17 10:01:41 +0200][INFO] Mr. Red Successful change. Buy 450EUR (Remaining funds: 9472.51USD)
+[Thu, 27 Jul 17 10:17:54 +0200][INFO] Login: Mr. Red
+[Thu, 27 Jul 17 10:19:51 +0200][INFO] Mr. Red Successful change. Buy 450JPY (Remaining funds: 9468.46USD)
+[Thu, 27 Jul 17 10:24:00 +0200][INFO] Mr. Red Successful change. Buy 500SEK (Remaining funds: 9407.36USD)
+[Fri, 28 Jul 17 09:55:45 +0200][INFO] Login: Mr. Red
+[Fri, 28 Jul 17 09:55:56 +0200][WARNING] Mr. Red Warning: Insufficient funds to buy 500AUD (Funds: 9407.36USD)
+[Fri, 28 Jul 17 09:56:19 +0200][ERROR] Error: emessage
+[Fri, 28 Jul 17 09:56:42 +0200][ERROR] Error: Phalcon\Mvc\Model\Exception: Column 'namej' doesn't belong to any of the selected models (1), when preparing: SELECT [Assets].* FROM [Assets] WHERE namej = "AUD" LIMIT :APL0: in /var/www/html/pharket/app/models/Assets.php:60
+Stack trace:
+#0 [internal function]: Phalcon\Mvc\Model\Query->_getQualified(Array)
+#1 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#2 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_prepareSelect()
+#4 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#5 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#6 /var/www/html/pharket/app/models/Assets.php(60): Phalcon\Mvc\Model::findFirst(Array)
+#7 /var/www/html/pharket/app/controllers/ChangeController.php(45): Assets::findFirst(Array)
+#8 [internal function]: ChangeController->checkAction()
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(ChangeController), 'checkAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->_dispatch()
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/pharket/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}message
+[Fri, 28 Jul 17 09:57:09 +0200][INFO] Mr. Red Successful change. Buy 500AUD (Remaining funds: 9008.66USD)
+[Fri, 28 Jul 17 09:58:36 +0200][WARNING] Mr. Red Warning: Insufficient funds to buy 10000EUR (Funds: 9008.66USD)
+[Fri, 28 Jul 17 10:01:35 +0200][WARNING] Mr. Red Warning: Insufficient funds to buy 10000EUR (Funds: 9008.66USD)
