@@ -7,7 +7,7 @@
     </p>
     <p>
         Por favor, juega con ello y, por favor, <a href="http://pablosantamaria.com/contacto/" target="_new">contáctame</a>
-        para cualquier tipo de comentarios. También puedes visitar el <a href="http://pablosantamaria.com" target="_new">Github de Pharket</a>.
+        para cualquier tipo de comentarios. También puedes visitar el <a href="https://github.com/PabloSanGJ/pharket" target="_new">Github de Pharket</a>.
     </p>
     <p>
         Puedes manejar 4 tipos de inversores. Todos ellos comenzaron con un capital inicial de 10.000$.

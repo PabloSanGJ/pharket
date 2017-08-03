@@ -7,7 +7,7 @@
     </p>
     <p>
         Please, play with it and please <a href="http://pablosantamaria.com/contacto/" target="_new">contact me</a>
-        for any kind of feedback. You can also visit <a href="http://pablosantamaria.com" target="_new">Pharket's Github</a>.
+        for any kind of feedback. You can also visit <a href="https://github.com/PabloSanGJ/pharket" target="_new">Pharket's Github</a>.
     </p>
     <p>
         There are 4 different investors you can handle. All of them started with an initial capital of 10.000$.
